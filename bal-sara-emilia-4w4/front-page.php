@@ -52,11 +52,12 @@ get_header();
 						get_template_part( 'template-parts/content', 'cours-carrousel' ); 
 						$chaine_bouton_radio .= '<input class="rad-carrousel"  type="radio" name="rad-'.$tPropriété['typeCours'].'">';
 						elseif ($tPropriété['typeCours'] == 'Projets'):
-							get_template_part( 'template-parts/content', 'galerie' ); 
-						else :		
+							get_template_part( 'template-parts/content', 'galerie' );
+						else:		
 						get_template_part( 'template-parts/content', 'cours-article' ); 
 				endif;	
 				$precedent = $tPropriété['typeCours'];
+
 			endwhile;?>
 			</section> <!-- fin section cours -->
 		<?php endif; ?>
