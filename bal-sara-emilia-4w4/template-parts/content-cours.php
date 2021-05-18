@@ -11,7 +11,7 @@ global $tPropriété;
 
 <article>
 	<p><?php echo $tPropriété['typeCours'];?></p>
-	<p><?php echo $tPropriété['sigle']; ?></p>
+	<p><a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['sigle']; ?></a> </p>
 	<p><?php echo $tPropriété['nbHeure']; ?></p>
 	 <a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['titrePartiel']; ?></a> 
 	<p><?php echo $tPropriété['session']; ?></p>
