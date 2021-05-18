@@ -25,14 +25,14 @@ get_header();
 				?>	
 			
 			</header><!-- .page-header -->
-			<section class="cours">
+			<section class="Cours">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
 				convertirTableau($tPropriété);
 
-				get_template_part( 'template-parts/content', 'cours' );
+				get_template_part( 'template-parts/content', 'Cours' );
 
 
 			endwhile;?>

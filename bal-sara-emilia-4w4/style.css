@@ -1573,4 +1573,51 @@ La barre du millieu
 #secondary {
   padding-left: 8%;
 }
+
+/* local cours
+--------------------------------------------- */
+.Cours {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.Cours article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #aaa;
+  width: 95%;
+  margin: 1%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Cours article p {
+  margin: .4rem;
+  font-size: 1rem;
+}
+
+.Cours article a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .Cours article {
+    width: 47%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Cours article {
+    width: 31%;
+    margin: 1%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
