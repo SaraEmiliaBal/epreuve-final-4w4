@@ -94,9 +94,16 @@ Liste des blocs de cours par type_de_cours
     display: flex;
     flex-direction: column;
     margin : 2% 4% 2% 2%;
-    section {
-       
-    }
+    /*------------- ANIMATION NOUVELLES ---------------*/
+    animation: anim-1 2s both 2s;
+}
+
+/*------------- ANIMATION NOUVELLES ---------------*/
+@keyframes anim-1{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    70%{opacity: 1;}
+    100%{opacity: 0.7;}
 }
 
 #annonce {

@@ -19,7 +19,7 @@
             padding  : 1rem;
             text-align : center;
             background-color: #F0FFFF;
-
+            
             p {
                 margin: .4rem;
                 font-size: 1rem;
@@ -30,17 +30,21 @@
                 font-weight: bold;
                 text-decoration: none;
                 color: cadetblue;
+                //transform: rotate(-90deg);
             }
         }
-        //article:active{
-            //background-color: #F0F8FF;
-            
-        //}
+        article:active{
+            background-color: #ADD8E6;
+        }
 }
         @include tablet {
             article {
                 width : 47%;
                 margin : 1%;
+
+                a{
+                    transform: rotate(-90deg);
+                }
             }
         }
         @include desktop {
