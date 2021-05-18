@@ -12,7 +12,8 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            border : 1px solid #aaa;
+            border : 1px inset #FFF8DC;
+            //border-style: inset;
             width : 95%;
             margin : 1%;
             padding  : 1rem;
@@ -21,14 +22,19 @@
             p {
                 margin: .4rem;
                 font-size: 1rem;
+                color: darkseagreen;
             }
             a {
                 font-size: 1.5rem;
                 font-weight: bold;
                 text-decoration: none;
+                color: cadetblue;
             }
         }
 
+        article:active{
+            background-color: #F0F8FF;
+        }
 
         @include tablet {
             article {

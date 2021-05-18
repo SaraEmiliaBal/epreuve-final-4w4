@@ -1589,7 +1589,7 @@ La barre du millieu
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #aaa;
+  border: 1px inset #FFF8DC;
   width: 95%;
   margin: 1%;
   padding: 1rem;
@@ -1599,12 +1599,18 @@ La barre du millieu
 .Cours article p {
   margin: .4rem;
   font-size: 1rem;
+  color: darkseagreen;
 }
 
 .Cours article a {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
+  color: cadetblue;
+}
+
+.Cours article:active {
+  background-color: #F0F8FF;
 }
 
 @media (min-width: 800px) {
